@@ -1,0 +1,72 @@
+/*
+The HTTP HEAD method requests the headers that are returned 
+if the specified resource would be requested with an HTTP GET method
+*/
+Request Headers:
+/*
+The Cache-Control general-header field is used to specify directives 
+for caching mechanisms in both requests and responses
+*/
+cache-control:"no-cache"
+/*
+This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest 
+is pending and another request is sent with the same parameters then Chrome 
+returns the same response for both of them. Sending a random token avoids this issue.
+*/
+postman-token:"076396c9-e367-474c-817d-7f11b2469304"
+/*
+The User-Agent request header contains a characteristic string that allows the network 
+protocol peers to identify the application type, operating system, software vendor or 
+software version of the requesting software user agent.
+*/
+user-agent:"PostmanRuntime/7.1.1"
+/*
+The Accept request HTTP header advertises which content types, expressed as MIME types, 
+the client is able to understand.
+*/
+accept:"*/*"
+/*
+The Host request header specifies the domain name of the server (for virtual hosting), 
+and (optionally) the TCP port number on which the server is listening.
+*/
+host:"www.googleapis.com"
+/*
+The Accept-Encoding request HTTP header advertises which content encoding, usually a 
+compression algorithm, the client is able to understand. 
+*/
+accept-encoding:"gzip, deflate"
+/*
+The headers read-only property of the Response interface contains the Headers object 
+associated with the response
+*/
+Response Headers:
+expires:"Wed, 07 Feb 2018 05:35:18 GMT"
+date:"Wed, 07 Feb 2018 05:35:18 GMT"
+/*
+The Cache-Control general-header field is used to specify directives 
+for caching mechanisms in both requests and responses
+*/
+cache-control:"private, max-age=0, must-revalidate, no-transform"
+/*
+The ETag HTTP response header is an identifier for a specific version of a resource.
+*/
+etag:""f6QLsd8inUgRKJVNBqJ8xHnPb0w/3V_jTOI1w2MHHz15ASTl0yDb6SQ""
+vary:
+0:"Origin"
+1:"X-Origin"
+content-type:"application/json; charset=UTF-8"
+content-encoding:"gzip"
+x-content-type-options:"nosniff"
+x-frame-options:"SAMEORIGIN"
+/*
+The HTTP X-XSS-Protection response header is a feature of Internet Explorer, Chrome and Safari 
+that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks
+*/
+x-xss-protection:"1; mode=block"
+server:"GSE"
+alt-svc:"hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35""
+transfer-encoding:"chunked"
+Response Body:
+kind:"books#volumes"
+totalItems:1711
+items:
